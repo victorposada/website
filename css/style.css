@@ -1,29 +1,38 @@
-/* Basic styling for your website */
-
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+body,
+html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
     text-align: center;
 }
 
-main {
-    padding: 20px;
+h1 {
+    margin-bottom: 20px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+ul {
+    list-style-type: none; /* Elimina las viñetas */
+    padding: 0;
+}
+
+ul li {
+    display: inline; /* Los elementos se muestran en línea */
+    margin-right: 15px; /* Espacio entre los elementos */
+    font-size: 18px;
 }
