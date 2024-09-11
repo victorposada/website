@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body,
 html {
     height: 100%;
@@ -20,6 +14,14 @@ body {
 
 .container {
     text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
 }
 
 h1 {
@@ -35,4 +37,9 @@ ul li {
     display: inline; /* Los elementos se muestran en línea */
     margin-right: 15px; /* Espacio entre los elementos */
     font-size: 18px;
+}
+
+.cv {
+    max-width: 800px;
+    margin: auto;
 }
