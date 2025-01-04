@@ -29,4 +29,6 @@ jobs:
           push: true
           tags: |
             ghcr.io/${{ github.repository_owner }}/website:latest
-            ghcr.io/${{ github.repository_owner }}/website:1.0.0            
+            ghcr.io/${{ github.repository_owner }}/website:1.0.0       
+          labels: |
+            LABEL org.opencontainers.image.source="https://github.com/victorposada/website"     
