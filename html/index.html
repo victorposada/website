@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./assets/favicon.svg" type="image/x-icon">
+    <link href="./assets/styles.css" rel="stylesheet">
+    <title>victor ps</title>
+
+    <script type="text/javascript">
+        let options = {
+            timeZone: 'europe/madrid',
+            hour: 'numeric',
+            minute: 'numeric',
+            second: 'numeric',
+        },
+            formatter = new Intl.DateTimeFormat([], options);
+        setInterval(
+            () => {
+                document.querySelector("#time").innerText = formatter.format(new Date());
+            }
+            , 1000)
+    </script>
+
+</head>
+
+<body class="index">
+    <div class="core">
+        <h1><i>victor ps</i></h1>
+        <p class=timezone>
+            <i id="time">00:00:00</i>
+        </p>
+        <a href="about.html">[about]</a>
+        <a href="/blog/">[blog]</a>
+        <a href="resume.pdf" target="_blank">[resume]</a>
+        <a href="https://github.com/victorposada">[github]</a>
+    </div>
+</body>
+
+</html>
