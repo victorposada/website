@@ -3,7 +3,7 @@ LABEL org.opencontainers.image.source="https://github.com/victorposada/website"
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
-COPY ./html /usr/share/nginx/html
+COPY ./src /usr/share/nginx/html
 
 EXPOSE 80
 

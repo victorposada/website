@@ -1,1 +1,3 @@
 *.log
+deployment/prometheus/data/*
+*.db
