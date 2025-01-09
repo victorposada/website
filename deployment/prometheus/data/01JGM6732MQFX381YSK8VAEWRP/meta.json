@@ -1,0 +1,17 @@
+{
+	"ulid": "01JGM6732MQFX381YSK8VAEWRP",
+	"minTime": 1735833600003,
+	"maxTime": 1735840800000,
+	"stats": {
+		"numSamples": 7714349,
+		"numSeries": 6770,
+		"numChunks": 63216
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01JGM6732MQFX381YSK8VAEWRP"
+		]
+	},
+	"version": 1
+}

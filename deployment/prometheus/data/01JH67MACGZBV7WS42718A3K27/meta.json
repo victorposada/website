@@ -1,0 +1,17 @@
+{
+	"ulid": "01JH67MACGZBV7WS42718A3K27",
+	"minTime": 1735840800000,
+	"maxTime": 1735848000000,
+	"stats": {
+		"numSamples": 5021724,
+		"numSeries": 7010,
+		"numChunks": 43623
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01JH67MACGZBV7WS42718A3K27"
+		]
+	},
+	"version": 1
+}

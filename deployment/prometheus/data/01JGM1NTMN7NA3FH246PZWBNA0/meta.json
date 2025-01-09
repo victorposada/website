@@ -1,0 +1,17 @@
+{
+	"ulid": "01JGM1NTMN7NA3FH246PZWBNA0",
+	"minTime": 1735828838221,
+	"maxTime": 1735833600000,
+	"stats": {
+		"numSamples": 5096747,
+		"numSeries": 7486,
+		"numChunks": 42605
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01JGM1NTMN7NA3FH246PZWBNA0"
+		]
+	},
+	"version": 1
+}
