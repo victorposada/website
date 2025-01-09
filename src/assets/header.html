@@ -6,6 +6,22 @@
     <i id="time">00:00:00</i>
 </div>
 
+<script type="text/javascript">
+    let options = {
+        timeZone: 'europe/madrid',
+        hour: 'numeric',
+        minute: 'numeric',
+        second: 'numeric',
+    },
+        formatter = new Intl.DateTimeFormat([], options);
+    setInterval(
+        () => {
+            document.querySelector("#time").innerText = formatter.format(new Date());
+        }
+        , 1000)
+</script>
+
+
 <style>
     html {
         font-family: 'Courier New', Courier, monospace;
@@ -25,6 +41,10 @@
         display: table-cell;
         vertical-align: middle;
         text-align: center;
+    }
+
+    h1 {
+        display: none;
     }
 
     p {
