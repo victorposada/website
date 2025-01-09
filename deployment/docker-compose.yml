@@ -2,6 +2,7 @@ version: '3.7'
 services:
   nginx:
     image: ghcr.io/victorposada/website:latest
+    pull_policy: always
     container_name: website
     restart: always
     networks:
@@ -28,7 +29,7 @@ services:
     container_name: prometheus-nginx-exporter
     restart: always
     command:
-      - -nginx.scrape-uri=https://website/stub_status
+      - -nginx.scrape-uri=http://website/stub_status
     expose: 
       - 9113
     networks:
